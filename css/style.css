@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-direction: column;*/
+}
+
+.child {
+  padding: 0 50px 20px 50px;
+}
+
+.circle {
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
